@@ -1,0 +1,5 @@
+=================
+plone.initializer
+=================
+
+User documentation
