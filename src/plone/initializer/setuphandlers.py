@@ -20,7 +20,7 @@ class HiddenProfiles(object):
         ]
 
 
-def _load_senaite_data(context):
+def _load_setup_data(context):
     portal_setup = getToolByName(context, 'portal_setup')
     tar_file_path =  os.path.join(os.path.dirname(getConfiguration().clienthome),'','importdata','data.tar.gz')
     if Path(tar_file_path).exists():
@@ -41,7 +41,7 @@ def _remove_plugin(pas, pluginid):
 def post_install(context):
     """Post install script"""
     aclu = getSite().acl_users
-    _load_senaite_data(context)
+    _load_setup_data(context)
 
 def uninstall(context):
     """Uninstall script"""
