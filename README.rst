@@ -2,11 +2,11 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-.. image:: https://travis-ci.org/collective/plone.initializer.svg?branch=master
-    :target: https://travis-ci.org/collective/plone.initializer
+.. image:: https://travis-ci.org/mekomsolutions/plone.initializer.svg?branch=master
+    :target: https://travis-ci.org/mekomsolutions/plone.initializer
 
-.. image:: https://coveralls.io/repos/github/collective/plone.initializer/badge.svg?branch=master
-    :target: https://coveralls.io/github/collective/plone.initializer?branch=master
+.. image:: https://coveralls.io/repos/github/mekomsolutions/plone.initializer/badge.svg?branch=master
+    :target: https://coveralls.io/github/mekomsolutions/plone.initializer?branch=master
     :alt: Coveralls
 
 .. image:: https://img.shields.io/pypi/v/plone.initializer.svg
@@ -23,39 +23,12 @@
     :target: https://pypi.python.org/pypi/plone.initializer/
     :alt: License
 
-
 =================
+
 plone.initializer
 =================
 
-Tell me what your product does
-
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
+This  plugin will load data  exported from the ZMI into a new Plone site. The plugin expects  the data to exisit at `${var-dir}/importdata/data.tar.gz` . It is created specifically for importing data from [SENAITE](https://www.senaite.com/) but should work with any data exported as tar.gz from the ZMI interface.
 
 Installation
 ------------
@@ -63,9 +36,9 @@ Installation
 Install plone.initializer by adding it to your buildout::
 
     [buildout]
-
+    
     ...
-
+    
     eggs =
         plone.initializer
 
@@ -76,19 +49,11 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/plone.initializer/issues
-- Source Code: https://github.com/collective/plone.initializer
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+- Issue Tracker: https://github.com/mekomsolutions/plone.initializer/issues
+- Source Code: https://github.com/mekomsolutions/plone.initializer
 
 
 License
 -------
 
-The project is licensed under the GPLv2.
+The project is licensed under the MIT licence.
