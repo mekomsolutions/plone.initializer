@@ -28,7 +28,7 @@
 plone.initializer
 =================
 
-This  plugin will load data  exported from the ZMI into a new Plone site. The plugin expects  the data to exisit at `${var-dir}/importdata/data.tar.gz` . It is created specifically for importing data from [SENAITE](https://www.senaite.com/) but should work with any data exported as tar.gz from the ZMI interface.
+This  plugin will load data  exported from the ZMI into a new Plone site. The plugin expects  the data to exist at `${var-dir}/importdata/data.tar.gz` . It is created specifically for importing data from [SENAITE](https://www.senaite.com/) but should work with any data exported as tar.gz from the ZMI interface.
 
 Installation
 ------------
